@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(23,41,56);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+aside{
+    max-width: 400px;
+    width: 80%;
+    height: 550px;
+    background-color: white;
+    border-radius: 35px;
+}
+ul,aside{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+ul,li{
+    list-style: none;
+    height: max-content;
+}
+li{
+    padding: 10px ;
+    margin: 15px 0px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+label,p,input{
+    padding: 5px;
+    margin: 5px 0px;
+    font-size: x-large;
+}

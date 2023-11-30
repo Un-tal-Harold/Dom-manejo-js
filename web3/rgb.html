@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rgb.css">
+    <link rel="icon" type="image/jpg" href="../web 1/fondo.jpg">
+    <title>Color rgb</title>
+</head>
+<body class="flex">
+    <aside id="contenedor" class="contenedor">
+        <ul id="lista-rgb" class="lista-rgb">
+            <li id="color" class="color-r">
+                <label for="rojo" id="titulo-rojo" class="titulo-rojo">Rojo (R)</label>
+                <input type="range" step="1" value="23" id="rojo" min="0" max="255">
+                <p id="texto-rojo" class="valor">23</p>
+            </li>
+            <li id="color" class="color-v">
+                <label for="verde" id="titulo-rgb" class="titulorgb">Verde (G)</label>
+                <input type="range" step="1" value="41" id="verde" min="0" max="255">
+                <p id="texto-verde" class="valor">41</p>
+            </li>
+            <li id="color" class="color-a">
+                <label for="azul" id="titulo-rgb" class="titulorgb">Azul (B)</label>
+                <input type="range" step="1" value="56" id="azul" min="0" max="255">
+                <p id="texto-azul" class="valor">56</p>
+            </li>
+        </ul>
+    </aside>
+    <script src="rgb.js"></script>
+</body>
+</html>
